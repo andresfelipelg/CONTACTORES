@@ -375,7 +375,7 @@
      alternativa1:'*LOV0978 *LOV0979 *LOV0980', 
      referencia1:'BF5000A',
      alternativa2:'LOV0977  al LOV0988', 
-     referencia2:'*BF5000A *BF6500A *BF8000',
+     referencia2:'*BF5000A *BF6500A *BF8000A',
      
 },
 {
@@ -387,7 +387,7 @@
      alternativa1:'*LOV0977 *LOV0979 *LOV0980', 
      referencia1:'BF5000A',
      alternativa2:'LOV0977  al LOV0988', 
-     referencia2:'*BF5000A *BF6500A *BF8000',
+     referencia2:'*BF5000A *BF6500A *BF8000A',
      
 },
 
@@ -400,7 +400,7 @@
      alternativa1:'*LOV0977 *LOV0978 *LOV0980', 
      referencia1:'BF5000A',
      alternativa2:'LOV0977  al LOV0988', 
-     referencia2:'*BF5000A *BF6500A *BF8000',
+     referencia2:'*BF5000A *BF6500A *BF8000A',
 },
 
 {
@@ -412,9 +412,274 @@
      alternativa1:'*LOV0977 *LOV0978 *LOV0979', 
      referencia1:'BF5000A',
      alternativa2:'LOV0977  al LOV0988', 
-     referencia2:'*BF5000A *BF6500A *BF8000',
+     referencia2:'*BF5000A *BF6500A *BF8000A',
      
 },
 //******************************* */ CIERRA BF50000 **************************************************************
+
+//******************************* */ ABRE BF6500 ****************************************************************
+
+{
+     codigo:'LOV0981', 
+     referencia:'BF6500A', 
+     voltaje:'24VAC', 
+     bobina: 'LOV0992', 
+     refeBobina:'BFX93AX-24VAC', 
+     alternativa1:'*LOV0982 *LOV0983 *LOV0984', 
+     referencia1:'BF6500A',
+     alternativa2:'LOV0977  al LOV0988', 
+     referencia2:'*BF5000A *BF6500A *BF8000A',
+     
+},
+{
+     codigo:'LOV0982', 
+     referencia:'BF6500A', 
+     voltaje:'110VAC', 
+     bobina: 'LOV0993', 
+     refeBobina:'BFX93AX-110VAC', 
+     alternativa1:'*LOV0981 *LOV0983 *LOV0984', 
+     referencia1:'BF6500A',
+     alternativa2:'LOV0977  al LOV0988', 
+     referencia2:'*BF5000A *BF6500A *BF8000A',
+     
+},
+
+{
+     codigo:'LOV0983', 
+     referencia:'BF6500A', 
+     voltaje:'220VAC', 
+     bobina: 'LOV0994', 
+     refeBobina:'BFX93AX-220VAC', 
+     alternativa1:'*LOV0981 *LOV0982 *LOV0984', 
+     referencia1:'BF6500A',
+     alternativa2:'LOV0977  al LOV0988', 
+     referencia2:'*BF5000A *BF6500A *BF8000A',
+},
+
+{
+     codigo:'LOV0984', 
+     referencia:'BF6500A', 
+     voltaje:'440VAC', 
+     bobina: 'LOV0995', 
+     refeBobina:'BFX93AX-440VAC', 
+     alternativa1:'*LOV0981 *LOV0982 *LOV0983', 
+     referencia1:'BF6500A',
+     alternativa2:'LOV0977  al LOV0988', 
+     referencia2:'*BF5000A *BF6500A *BF8000A',
+     
+},
+//******************************* */ CIERRA BF6500 **************************************************************
+
+//******************************* */ ABRE BF8000 ****************************************************************
+
+{
+     codigo:'LOV0985', 
+     referencia:'BF8000A', 
+     voltaje:'24VAC', 
+     bobina: 'LOV0992', 
+     refeBobina:'BFX93AX-24VAC', 
+     alternativa1:'*LOV0986 *LOV0987 *LOV0988', 
+     referencia1:'BF8000A',
+     alternativa2:'LOV0977  al LOV0988', 
+     referencia2:'*BF5000A *BF6500A *BF8000A',
+     
+},
+{
+     codigo:'LOV0986', 
+     referencia:'BF8000A', 
+     voltaje:'110VAC', 
+     bobina: 'LOV0993', 
+     refeBobina:'BFX93AX-110VAC', 
+     alternativa1:'*LOV0985 *LOV0987 *LOV0988', 
+     referencia1:'BF8000A',
+     alternativa2:'LOV0977  al LOV0988', 
+     referencia2:'*BF5000A *BF6500A *BF8000A',
+     
+},
+
+{
+     codigo:'LOV0987', 
+     referencia:'BF8000A', 
+     voltaje:'220VAC', 
+     bobina: 'LOV0994', 
+     refeBobina:'BFX93AX-220VAC', 
+     alternativa1:'*LOV0985 *LOV0986 *LOV0988', 
+     referencia1:'BF8000A',
+     alternativa2:'LOV0977  al LOV0988', 
+     referencia2:'*BF5000A *BF6500A *BF8000A',
+},
+
+{
+     codigo:'LOV0988', 
+     referencia:'BF8000A', 
+     voltaje:'440VAC', 
+     bobina: 'LOV0995', 
+     refeBobina:'BFX93AX-440VAC', 
+     alternativa1:'*LOV0985 *LOV0986 *LOV0987', 
+     referencia1:'BF8000A',
+     alternativa2:'LOV0977  al LOV0988', 
+     referencia2:'*BF5000A *BF6500A *BF8000A',
+     
+},
+//******************************* */ CIERRA BF8000 **************************************************************
+
+//******************************* */ ABRE BF9500 ****************************************************************
+
+{
+     codigo:'LOV1213', 
+     referencia:'BF9500A', 
+     voltaje:'24VAC', 
+     bobina: '-------------', 
+     refeBobina:'BFX94AX-24VAC', 
+     alternativa1:'*LOV1214 *LOV1215 *LOV1216', 
+     referencia1:'BF9500A',
+     alternativa2:'LOV1213  al LOV1224', 
+     referencia2:'*BF9500A *BF11500A *BF15000A',
+     
+},
+{
+     codigo:'LOV1214', 
+     referencia:'BF9500A', 
+     voltaje:'110VAC', 
+     bobina: 'LOV1233', 
+     refeBobina:'BFX94AX-110VAC', 
+     alternativa1:'*LOV1213 *LOV1215 *LOV1216', 
+     referencia1:'BF9500A',
+     alternativa2:'LOV1213  al LOV1224', 
+     referencia2:'*BF9500A *BF11500A *BF15000A',
+     
+},
+
+{
+     codigo:'LOV1215', 
+     referencia:'BF9500A', 
+     voltaje:'220VAC', 
+     bobina: 'LOV1234', 
+     refeBobina:'BFX94AX-220VAC', 
+     alternativa1:'*LOV1213 *LOV1214 *LOV1216', 
+     referencia1:'BF9500A',
+     alternativa2:'LOV1213  al LOV1224', 
+     referencia2:'*BF9500A *BF11500A *BF15000A',
+},
+
+{
+     codigo:'LOV1216', 
+     referencia:'BF8000A', 
+     voltaje:'440VAC', 
+     bobina: 'LOV1235', 
+     refeBobina:'BFX94AX-440VAC', 
+     alternativa1:'*LOV1214 *LOV01215 *LOV1217', 
+     referencia1:'BF9500A',
+     alternativa2:'LOV1213  al LOV1224', 
+     referencia2:'*BF9500A *BF11500A *BF15000A',
+     
+},
+//******************************* */ CIERRA BF95000 **************************************************************
+
+//******************************* */ ABRE BF11500 ****************************************************************
+
+{
+     codigo:'LOV1217', 
+     referencia:'BF11500A', 
+     voltaje:'24VAC', 
+     bobina: '-------------', 
+     refeBobina:'BFX94AX-24VAC', 
+     alternativa1:'*LOV1218 *LOV1219 *LOV1220', 
+     referencia1:'BF11500A',
+     alternativa2:'LOV1213  al LOV1224', 
+     referencia2:'*BF9500A *BF11500A *BF15000A',
+     
+},
+{
+     codigo:'LOV1218', 
+     referencia:'BF11500A', 
+     voltaje:'110VAC', 
+     bobina: 'LOV1233', 
+     refeBobina:'BFX94AX-110VAC', 
+     alternativa1:'*LOV1217 *LOV1219 *LOV1220', 
+     referencia1:'BF11500A',
+     alternativa2:'LOV1213  al LOV1224', 
+     referencia2:'*BF9500A *BF11500A *BF15000A',
+     
+},
+
+{
+     codigo:'LOV1219', 
+     referencia:'BF11500A', 
+     voltaje:'220VAC', 
+     bobina: 'LOV1234', 
+     refeBobina:'BFX94AX-220VAC', 
+     alternativa1:'*LOV1217 *LOV1218 *LOV1220', 
+     referencia1:'BF11500A',
+     alternativa2:'LOV1213  al LOV1224', 
+     referencia2:'*BF9500A *BF11500A *BF15000A',
+},
+
+{
+     codigo:'LOV1220', 
+     referencia:'BF11500A', 
+     voltaje:'440VAC', 
+     bobina: 'LOV1235', 
+     refeBobina:'BFX94AX-440VAC', 
+     alternativa1:'*LOV1217 *LOV1218 *LOV1219', 
+     referencia1:'BF11500A',
+     alternativa2:'LOV1213  al LOV1224', 
+     referencia2:'*BF9500A *BF11500A *BF15000A',
+     
+},
+//******************************* */ CIERRA BF11500 **************************************************************
+
+//******************************* */ ABRE BF15000 ****************************************************************
+
+{
+     codigo:'LOV1221', 
+     referencia:'BF15000A', 
+     voltaje:'24VAC', 
+     bobina: '-------------', 
+     refeBobina:'BFX94AX-24VAC', 
+     alternativa1:'*LOV1222 *LOV1223 *LOV1224', 
+     referencia1:'BF15000A',
+     alternativa2:'LOV1213  al LOV1224', 
+     referencia2:'*BF9500A *BF11500A *BF15000A',
+     
+},
+{
+     codigo:'LOV1222', 
+     referencia:'BF15000A', 
+     voltaje:'110VAC', 
+     bobina: 'LOV1233', 
+     refeBobina:'BFX94AX-110VAC', 
+     alternativa1:'*LOV1221 *LOV1223 *LOV1224', 
+     referencia1:'BF15000A',
+     alternativa2:'LOV1213  al LOV1224', 
+     referencia2:'*BF9500A *BF11500A *BF15000A',
+     
+},
+
+{
+     codigo:'LOV1223', 
+     referencia:'BF15000A', 
+     voltaje:'220VAC', 
+     bobina: 'LOV1234', 
+     refeBobina:'BFX94AX-220VAC', 
+     alternativa1:'*LOV1221 *LOV1222 *LOV1224', 
+     referencia1:'BF15000A',
+     alternativa2:'LOV1213  al LOV1224', 
+     referencia2:'*BF9500A *BF11500A *BF15000A',
+},
+
+{
+     codigo:'LOV1224', 
+     referencia:'BF15000A', 
+     voltaje:'440VAC', 
+     bobina: 'LOV1235', 
+     refeBobina:'BFX94AX-440VAC', 
+     alternativa1:'*LOV1221 *LOV01222 *LOV1223', 
+     referencia1:'BF15000A',
+     alternativa2:'LOV1213  al LOV1224', 
+     referencia2:'*BF9500A *BF11500A *BF15000A',
+     
+},
+//******************************* */ CIERRA BF15000 **************************************************************
 
 ]
