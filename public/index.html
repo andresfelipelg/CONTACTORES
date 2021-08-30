@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de bobina</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../src/assets/icon_efb3c04254b364ff57ef99661cd99b53.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="https://laumayer.com/wp-content/uploads/2019/12/logo-2019-1.png" class="rounded float-end p-3" alt="...">
+            </div>
+        </div>
+    </div>
+            
+    <h1 class="text-center">Cambio de bobina</h1>
+    <div class="container">
+        <div class="row">
+        <div class="col">
+        <input type="text" class="form-control mt-2" placeholder="Ingresa el codigo del contactor" id="formulario">
+        <button class="btn btn-primary mt-3" id="btn">Buscar</button>
+        <button class="btn btn-danger mt-3" id="btn-borrar">Borrar</button>
+</div>
+</div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="alert alert-danger text-center mt-4" role="alert">
+               Recuerde que en EATON desde DILM7 al DILM15 no se puede realizar cambio de bobina
+              </div>
+              <div class="alert alert-primary text-center" role="alert">
+                La alternativa 1 va relacionado entre el codigo de la bobina y el contactor de la misma referencia.
+                <br>
+                La alternativa 2 va relacionado entre los contactores que son compatibles, solo es buscar el voltaje del contactor que se necesita y realizar cambio entre ellos
+              </div>
+              
+        </div>
+    </div>
+</div>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col">
+            <table class="table">
+                <thead class="table-dark">
+                  <tr>
+                    <th scope="col">Codigo</th>
+                    <th scope="col">Referencia</th>
+                    <th scope="col">Voltaje</th>
+                    <th scope="col">Cod/Bobina</th>
+                    <th scope="col">Refe/Bobina</th>
+                    <th scope="col">Cod/alter1</th>
+                    <th scope="col">Refe/alter1</th>
+                    <th scope="col">Cod/alter2</th>
+                    <th scope="col">Refe/alter2 </th>
+                  </tr>
+                </thead>
+                <tbody id="resultado">
+                  <tr> 
+                  </tr>
+                  </td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../javascript/Contactor.js"></script>
+    <script src="../javascript/app.js"></script>
+</body>
+</html>
